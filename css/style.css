@@ -261,3 +261,117 @@ h4{
 	}
 
 }
+@media(max-width : 580px){
+	.football{
+		flex-direction: column;
+		height: 600px;
+	}
+	.football .container-textos{
+		text-align: justify;
+	}
+
+	.funtion{
+		flex-direction: column;
+		width: 350;
+		text-align: justify;
+	}
+	.sistema{
+		flex-direction: column;
+		height: 500px;
+		margin-top:20px ;
+	}
+	.quarterback{
+		flex-direction: column;
+		height: 540px;
+		margin: 20px;
+
+	}
+	.puntos{
+		flex-direction: column;
+		height: 420px;
+	}
+	.paginas{
+		flex-direction: column;
+		height: 250px;
+		text-align: justify;
+	}
+	.kicker{
+		flex-direction: column;
+		align-items: center;
+		height: 420px;
+	}
+	.puntos{
+		flex-direction: column;
+		align-items: center;
+		height: 420px;
+	}
+	.defensa{
+		flex-direction: column;
+		height: 420px;
+		align-items: center;
+	}
+	.about-us{
+
+		flex-direction: column;
+		justify-content: space-evenly;
+
+	}
+
+}
+@media(max-width : 480px){
+	.football{
+		flex-direction: column;
+		height: 600px;
+	}
+	.football .container-textos{
+		text-align: justify;
+	}
+
+	.funtion{
+		flex-direction: column;
+		width: 350;
+		text-align: justify;
+	}
+	.sistema{
+		flex-direction: column;
+		height: 500px;
+		margin-top:20px ;
+	}
+	.quarterback{
+		flex-direction: column;
+		height: 540px;
+		margin: 20px;
+
+	}
+	.puntos{
+		flex-direction: column;
+		height: 420px;
+	}
+	.paginas{
+		flex-direction: column;
+		height: 250px;
+		text-align: justify;
+	}
+	.kicker{
+		flex-direction: column;
+		align-items: center;
+		height: 420px;
+	}
+	.puntos{
+		flex-direction: column;
+		align-items: center;
+		height: 420px;
+	}
+	.defensa{
+		flex-direction: column;
+		height: 420px;
+		align-items: center;
+	}
+	.about-us{
+
+		flex-direction: column;
+		justify-content: space-evenly;
+
+	}
+
+}
