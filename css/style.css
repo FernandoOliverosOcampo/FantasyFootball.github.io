@@ -199,7 +199,9 @@ h4{
 	margin: 20px;
 	text-align: center;
 }
-
+.about-us a{
+    color: black;
+}
 
 /* Responsive*/
 @media(max-width : 680px){
