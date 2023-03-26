@@ -1,0 +1,261 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	text-justify: justify;
+}
+table{
+	border: 1px;
+	border: black;
+}
+
+/* Primer dic*/
+.football{
+	margin: 0;
+	display: flex;
+	position: relative;
+	align-content: center;
+}
+.football .container-textos{
+	
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	height: 350px;
+	
+
+}
+.football .container-textos h1{
+
+	text-align: center;
+}
+.football .container-textos p{
+	margin-left: 20px;
+}
+.football .container-textos a{
+	margin-left: 20px;
+
+}
+.football .container-textos i{
+	margin-left: 20px;
+}
+.football .container-textos h2{
+	text-align: center;
+}
+
+/* Div funtion*/
+.funtion{
+	display: flex;
+	position: relative;
+	align-items: center;
+
+		
+}
+.funtion .container-funtion{
+	margin-left: 35px;
+	margin-right: 10px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.funtion .container-funtion h3{
+	margin-top: 20px;
+	text-align: center;
+
+}
+.funtion  .container-funtion p{
+	justify-content: center;
+
+	
+}
+
+.funtion .container-funtion h5{
+	text-align: center;
+}
+/*sistemas*/
+
+h4{
+	text-align: center;
+	
+}
+.quarterback{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.quarterback img{
+
+	width: 250px;
+	height:250px;
+	margin: 20px;
+
+}
+.quarterback table{
+	width: 250px;
+	height: 250px;
+
+}
+.sistema{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.sistema img{
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+}
+.sistema table{
+	align-items: center;
+	height: 250px;
+	width: 250px;
+
+}
+
+.puntos{
+	 display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.puntos img{
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+}
+.puntos table{
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+	justify-content: center;
+
+}
+.kicker{
+	display: flex;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+}
+.kicker img{
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+}
+.kicker table{
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+}
+
+.defensa{
+	display: flex;
+	width: 100%vh;
+	justify-content: center;
+	align-items: center;
+}
+.defensa img{
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+	
+}
+.defensa table{
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+}
+
+/*pagina*/
+.paginas{
+	display: flex;
+	height: 150px;
+	margin: 20px;
+	position: relative;
+
+}
+
+.paginas .container-paginas h4{
+	margin-top: 20px;
+	text-align: center;
+}
+.paginas .container-paginas{
+
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+}
+
+/*footer*/
+.about-us{
+
+	display: flex;
+	height: 100px;
+	background: gray;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+
+}
+.about-us p{
+	margin: 20px;
+	text-align: center;
+}
+
+
+/* Responsive*/
+@media(max-width : 680px){
+	.football{
+		flex-direction: column;
+		height: 600px;
+	}
+	.football .container-textos{
+		text-align: justify;
+	}
+
+	.funtion{
+		flex-direction: column;
+		width: 350;
+		text-align: justify;
+	}
+	.sistema{
+		flex-direction: column;
+		height: 500px;
+		margin-top:20px ;
+	}
+	.quarterback{
+		flex-direction: column;
+		height: 540px;
+		margin: 20px;
+
+	}
+	.puntos{
+		flex-direction: column;
+		height: 420px;
+	}
+	.paginas{
+		flex-direction: column;
+		height: 250px;
+		text-align: justify;
+	}
+	.kicker{
+		flex-direction: column;
+		align-items: center;
+		height: 420px;
+	}
+	.puntos{
+		flex-direction: column;
+		align-items: center;
+		height: 420px;
+	}
+	.defensa{
+		flex-direction: column;
+		height: 420px;
+		align-items: center;
+	}
+	.about-us{
+
+		flex-direction: column;
+		justify-content: space-evenly;
+
+	}
+
+}

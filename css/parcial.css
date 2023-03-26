@@ -1,0 +1,13 @@
+table, th, td{
+ border:1px solid black;
+       			border-collapse: collapse; 
+      			background-color: black;
+}
+th, td{
+	color: white;
+}
+.btn-primary{
+	width: 60%;
+	margin: 5px 0 25px;
+	
+}
